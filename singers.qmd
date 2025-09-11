@@ -1,0 +1,47 @@
+---
+title: ""
+---
+
+```{r echo=FALSE, message=FALSE}
+library(bslib)
+
+layout_columns(
+  card(
+    card_header("Jule (Sopran)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Laura (Sopran)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Jessi (Alt)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Tina (Alt)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Ecki (Tenor)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Jan (Tenor)"),
+    bslib::card_image(file = "images/pic_jali.jpg"),
+    card_body("...das wissen wir, das wissen alle hier!")
+  ),
+  card(
+    card_header("Rüdiger (Bass)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Janni (Bass)"),
+    card_body("Foto und Text")
+  ),
+  card(
+    card_header("Magnus (Bass)"),
+    card_body("Foto und Text")
+  )
+)
+```

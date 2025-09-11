@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    logo: "images/logo_name_bw.png"
+    search: false
+    left:
+      - text: naturenoise
+        href: index.qmd
+      - text: Konzerte
+        href: concerts.qmd
+      - text: Sänger*innen
+        href: singers.qmd
+      - text: Medien
+        href: media.qmd
+      - text: Kontakt
+        href: contact.qmd
+    right:
+      - text: "<i class='bi bi-youtube' title='YouTube'></i>"
+        href: https://www.youtube.com/@naturenoise7975
+        aria-label: YouTube
+      - text: "<i class='fab fa-soundcloud' data-bs-toggle='tooltip' title='SoundCloud-Profil'></i>"
+        href: https://soundcloud.com/naturenoise-berlin
+        aria-label: SoundCloud
+      - text: "<i class='bi bi-facebook' title='facebook'></i>"
+        href: https://www.facebook.com/naturenoise
+        aria-label: Facebook
+
+  page-footer:
+    left: "© 2025 naturenoise"
+    right: "Feinste A Capella Musik seit 2009"
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+
+editor: visual

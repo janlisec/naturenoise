@@ -1,0 +1,38 @@
+---
+title: "Bilder, Sound & Videos"
+---
+
+## On stage
+
+Vielleicht 2-3 Konzertbilder mit Datum und Ort...
+
+## Presse Info
+
+![Bandfoto](images/terasse.jpg)
+
+Pressetext
+
+{{< lipsum 2 >}}
+
+## Aufnahmen
+
+Ihr findet einige Aufnahmen auf [Soundcloud](https://soundcloud.com/naturenoise-berlin).
+Wer Lust hat [bestellt](mailto: magnus.hellmann\@posteo.de) unsere CD "Einziger Erstling"!
+
+![](images/logo_CD_color.png){fig-align="center"}
+
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q5p6YeGnFec?si=kBjvSeXVkGgmBleA&amp;start=67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+
+</iframe>
+
+(Sign your name, 2019)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wRFUbNHxt54?si=kBjvSeXVkGgmBleA&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+
+</iframe>
+
+(Man in the mirror, 2021)
+
+Noch mehr Videos gibt es auf unserem [YouTube](https://www.youtube.com/@naturenoise7975) Kanal.
