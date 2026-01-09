@@ -9,7 +9,7 @@ website:
     search: false
     left:
       - text: "<img src='images/logo_name_bw.png' alt='naturenoise' class='navbar-logo' />"
-        href: index.qmd
+        href: "#start"
         aria-label: Startseite
       - text: konzerte
         href: "#konzerte"
