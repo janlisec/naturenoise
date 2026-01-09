@@ -114,7 +114,7 @@ background-color: rgba(0, 0, 0, 0.5);
   margin-right: calc(50% - 50vw);
 
   height: 30vh;
-  min-height: 360px;
+  min-height: 160px;
 
   background-image: url("images/20250316_naturenoise_Philharmonie.jpg");
   background-size: cover;
@@ -129,7 +129,7 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 
 
-
+/* define icon row */
 .icon-row {
   display: flex;
   justify-content: center;  /* horizontal zentriert */
