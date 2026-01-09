@@ -2,9 +2,7 @@
 title: ""
 ---
 
-<div class="hero hero-fullbleed">
-  <div class="hero-content">
-  </div>
+<div class="hero-fullbleed">
 </div>
 
 <section id="start">
