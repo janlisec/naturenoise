@@ -1,8 +1,130 @@
 /* css styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,600&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 body {
   font-family: 'Montserrat', sans-serif;
+  padding-top: 80px;
 }
+
+/* 1) Die zusammenklappbare Navbar (Bootstrap Collapse) mittig ausrichten */
+.navbar .navbar-collapse {
+  justify-content: center;   /* verteilt den Inhalt mittig */
+}
+
+/* 2) Sicherstellen, dass die Menüelemente in einer Reihe bleiben */
+.navbar .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar .container,
+.navbar .container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+
+/* Navbar-Links & Brand */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: 500; /* passe nach Geschmack an: 400–600 */
+}
+
+/* Level-2 Überschriften */
+h2,
+.h2,
+h2.anchored {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Optional: Abschnittstitel im Inhaltsbereich, falls Quarto andere Klassen setzt */
+.section h2 {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+/* HERO SECTION */
+.hero {
+  height: 70vh;              /* 60–80vh üblich */
+  min-height: 420px;
+  background-image: url("images/20250310_naturenoise_Philharmonie.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Optional: dunkles Overlay für bessere Lesbarkeit */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Optionaler Text im Hero */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* NAVBAR ÜBER HERO */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;  /* Bootstrap-Empfehlung */
+  background-color: rgba(255, 255, 255, 0.6); /* hell & transparent */
+  backdrop-filter: blur(6px);  /* moderner Glass-Effekt */
+}
+
+/* Für Dark Look alternativ:
+background-color: rgba(0, 0, 0, 0.5);
+*/
+
+
+/* FULL-BLEED HERO */
+.hero-fullbleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  height: 30vh;
+  min-height: 360px;
+
+  background-image: url("images/20250316_naturenoise_Philharmonie.jpg");
+  background-size: cover;
+  background-position: center 15%;
+  position: relative;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+

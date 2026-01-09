@@ -1,13 +1,19 @@
 ---
-title: ""
+title: "Konzerte"
 ---
 
-## Seid dabei 🥳
+## konzerte
 
-* 19.09.2025 – Berlin, Wagenplatz Karow
+#### Seid dabei 🥳
 
-## Leider vorbei 😭
+-   19.02.2026 – Berlin, Klimasalon Lichtenberg
 
-* 16.03.2025 – Berlin, [Philharmonie](https://www.chorverband-berlin.de/veranstaltungen/konzerte-veranstaltungen/sonntagskonzertreihe/)
-* 14.09.2024 – Berlin, [Unplugggedival](https://www.unpluggedival.de/veranstaltungen/2024-06-26/naturenoise/)
-* 11.07.2015 – Berlin, [Pfefferwerk](https://haus13.pfefferwerk.de/event/a-capella-sommerkonzert-naturenoise/)
+#### Leider vorbei 😭
+
+-   06.12.2025 – Berlin, Jugendfunkhaus Lichtenberg
+-   19.09.2025 – Berlin, Wagenplatz Karow (Sommerfest)
+-   25.06.2025 – Berlin, Potsdamer Platz (after work concert)
+-   16.03.2025 – Berlin, [Philharmonie](https://www.chorverband-berlin.de/veranstaltungen/konzerte-veranstaltungen/sonntagskonzertreihe/){target="_blank" rel="noopener noreferrer"}
+-   14.09.2024 – Berlin, [Unplugggedival](https://www.unpluggedival.de/veranstaltungen/2024-06-26/naturenoise/){target="_blank" rel="noopener noreferrer"}
+-   20.04.2024 – Berlin, Wabe (15 Jahre naturenoise)
+-   11.07.2015 – Berlin, [Pfefferwerk](https://haus13.pfefferwerk.de/event/a-capella-sommerkonzert-naturenoise/){target="_blank" rel="noopener noreferrer"}

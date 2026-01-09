@@ -1,16 +1,20 @@
 ---
-title: "Impressum & Kontakt"
+title: ""
 ---
 
 ## Kontakt
 
+#### Impressum
+
+Angaben gemäß § 5 TMG und § 18 MStV
+
 **naturenoise**\
 c/o Magnus Hellmann\
-Klangstraße 12\
-12345 Musikstadt
+Dolomitenstrasse 44\
+13187 Berlin\
+Deutschland
 
 E-Mail: kontakt\@naturenoise.de
 
-## Impressum
-
-Verantwortlich im Sinne des...
+Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:  
+Magnus Hellmann (Anschrift s.o.)

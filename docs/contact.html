@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Impressum &amp; Kontakt</title>
+<title>contact</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,11 +77,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo_name_bw.png" alt="" class="navbar-logo">
-    </a>
-  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -89,37 +84,19 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">naturenoise</span></a>
+<span class="menu-text"><img src="images/logo_name_bw.png" alt="naturenoise" class="navbar-logo"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./concerts.html"> 
-<span class="menu-text">Konzerte</span></a>
+    <a class="nav-link" href="./#konzerte"> 
+<span class="menu-text">konzerte</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./singers.html"> 
-<span class="menu-text">Sänger*innen</span></a>
+    <a class="nav-link" href="./#medien"> 
+<span class="menu-text">medien</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./media.html"> 
-<span class="menu-text">Medien</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./contact.html" aria-current="page"> 
-<span class="menu-text">Kontakt</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.youtube.com/@naturenoise7975"> 
-<span class="menu-text"><i class="bi bi-youtube" title="YouTube"></i></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://soundcloud.com/naturenoise-berlin"> 
-<span class="menu-text"><i class="fab fa-soundcloud" data-bs-toggle="tooltip" title="SoundCloud-Profil"></i></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.facebook.com/naturenoise"> 
-<span class="menu-text"><i class="bi bi-facebook" title="facebook"></i></span></a>
+    <a class="nav-link" href="./#kontakt"> 
+<span class="menu-text">kontakt</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -134,40 +111,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Impressum &amp; Kontakt</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="kontakt" class="level2">
 <h2 class="anchored" data-anchor-id="kontakt">Kontakt</h2>
+<section id="impressum" class="level4">
+<h4 class="anchored" data-anchor-id="impressum">Impressum</h4>
+<p>Angaben gemäß § 5 TMG und § 18 MStV</p>
 <p><strong>naturenoise</strong><br>
 c/o Magnus Hellmann<br>
-Klangstraße 12<br>
-12345 Musikstadt</p>
+Dolomitenstrasse 44<br>
+13187 Berlin<br>
+Deutschland</p>
 <p>E-Mail: kontakt@naturenoise.de</p>
+<p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:<br>
+Magnus Hellmann (Anschrift s.o.)</p>
+
+
 </section>
-<section id="impressum" class="level2">
-<h2 class="anchored" data-anchor-id="impressum">Impressum</h2>
-<p>Verantwortlich im Sinne des…</p>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -592,16 +556,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 naturenoise</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Feinste A Capella Musik seit 2009<br>naturenoise | 2026
+  </li>  
+</ul>
     </div>
     <div class="nav-footer-right">
-<p>Feinste A Capella Musik seit 2009</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
+<script>
+  const navbar = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+</script>
 
 
 

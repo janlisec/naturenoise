@@ -5,36 +5,48 @@ project:
 website:
   title: ""
   navbar:
-    logo: "images/logo_name_bw.png"
+    collapse-below: sm
     search: false
     left:
-      - text: naturenoise
+      - text: "<img src='images/logo_name_bw.png' alt='naturenoise' class='navbar-logo' />"
         href: index.qmd
-      - text: Konzerte
-        href: concerts.qmd
-      - text: Sänger*innen
-        href: singers.qmd
-      - text: Medien
-        href: media.qmd
-      - text: Kontakt
-        href: contact.qmd
-    right:
-      - text: "<i class='bi bi-youtube' title='YouTube'></i>"
-        href: https://www.youtube.com/@naturenoise7975
-        aria-label: YouTube
-      - text: "<i class='fab fa-soundcloud' data-bs-toggle='tooltip' title='SoundCloud-Profil'></i>"
-        href: https://soundcloud.com/naturenoise-berlin
-        aria-label: SoundCloud
-      - text: "<i class='bi bi-facebook' title='facebook'></i>"
-        href: https://www.facebook.com/naturenoise
-        aria-label: Facebook
+        aria-label: Startseite
+      - text: konzerte
+        href: "#konzerte"
+      - text: medien
+        href: "#medien"
+      - text: kontakt
+        href: "#kontakt"
+      # - text: "<i class='bi bi-youtube' title='YouTube'></i>"
+      #   href: https://www.youtube.com/@naturenoise7975
+      #   aria-label: YouTube
+      #   target: _blank
+      #   rel: noopener noreferrer
+      # - text: "<i class='fab fa-soundcloud' data-bs-toggle='tooltip' title='SoundCloud-Profil'></i>"
+      #   href: https://soundcloud.com/naturenoise-berlin
+      #   aria-label: SoundCloud
+      #   target: _blank
+      #   rel: noopener noreferrer
+      # - text: "<i class='bi bi-facebook' title='facebook'></i>"
+      #   href: https://www.facebook.com/naturenoise
+      #   aria-label: Facebook
+      #   target: _blank
+      #   rel: noopener noreferrer
 
   page-footer:
-    left: "© 2025 naturenoise"
-    right: "Feinste A Capella Musik seit 2009"
+    center: 
+      - text: "Feinste A Capella Musik seit 2009<br>naturenoise | 2026"
 
 format:
   html:
+    include-after-body:
+      text: |
+        <script>
+          const navbar = document.querySelector('.navbar');
+          window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 60);
+          });
+        </script>
     theme:
       light: flatly
     css: styles.css
