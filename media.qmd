@@ -4,28 +4,31 @@ title: ""
 
 ## medien
 
-#### Foto <a href="https://www.facebook.com/naturenoise" target="_blank" rel="noopener noreferrer" aria-label="Facebook"> <i class="bi bi-facebook"></i> </a>
+Ihr findet Videos, Aufnahmen und Bilder von uns online (damit ihr die Zeit bis zum nächsten Konzert überbrücken könnt). 
+
+<div class="icon-row">
+  <a href="https://www.youtube.com/@naturenoise7975" target="_blank" aria-label="YouTube">
+    <i class="bi bi-youtube"></i>
+  </a>
+
+  <a href="https://soundcloud.com/naturenoise-berlin" target="_blank" aria-label="SoundCloud">
+    <i class="fab fa-soundcloud"></i>
+  </a>
+
+  <a href="https://www.facebook.com/naturenoise" target="_blank" aria-label="Facebook">
+    <i class="bi bi-facebook"></i>
+  </a>
+</div>
+
 
 ![](images/stage_and_trailer_montage.png){fig-align="center"}
 
-#### Audio <a href="https://soundcloud.com/naturenoise-berlin" target="_blank" rel="noopener noreferrer" aria-label="SoundCloud"> <i class="fab fa-soundcloud"></i> </a>
+<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Q5p6YeGnFec?si=kBjvSeXVkGgmBleA&amp;start=67" title="Sign your name, 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+</iframe>
 
-Ihr findet einige Aufnahmen auf [Soundcloud](https://soundcloud.com/naturenoise-berlin){target="_blank" rel="noopener noreferrer"}. Wer Lust hat [bestellt](mailto:%20magnus.hellmann@posteo.de) unsere CD "Einziger Erstling"!
+<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/wRFUbNHxt54?si=kBjvSeXVkGgmBleA&amp;start=0" title="Man in the mirror, 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+</iframe>
+
+Und wer sich **naturenoise** gern ins Regal stellen möchte [bestellt](mailto:%20magnus.hellmann@posteo.de) unsere CD "Einziger Erstling"!
 
 ![](images/logo_CD_color.png){fig-align="center"}
-
-#### Video <a href="https://www.youtube.com/@naturenoise7975" target="_blank" rel="noopener noreferrer" aria-label="YouTube"> <i class="bi bi-youtube"></i> </a>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q5p6YeGnFec?si=kBjvSeXVkGgmBleA&amp;start=67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
-
-</iframe>
-
-(Sign your name, 2019)
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wRFUbNHxt54?si=kBjvSeXVkGgmBleA&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
-
-</iframe>
-
-(Man in the mirror, 2021)
-
-Noch mehr Videos gibt es auf unserem [YouTube](https://www.youtube.com/@naturenoise7975){target="_blank" rel="noopener noreferrer"} Kanal.
