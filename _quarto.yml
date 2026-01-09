@@ -25,14 +25,6 @@ website:
 
 format:
   html:
-    include-after-body:
-      text: |
-        <script>
-          const navbar = document.querySelector('.navbar');
-          window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 360);
-          });
-        </script>
     theme:
       light: flatly
     css: styles.css
