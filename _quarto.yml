@@ -5,6 +5,7 @@ project:
 website:
   title: ""
   navbar:
+    collapse: false
     collapse-below: sm
     search: false
     left:
