@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 }
 
 section {
-  scroll-margin-top: 60px;
+  scroll-margin-top: 55px;
 }
 
 /* NAVBAR HÖHE */
@@ -29,8 +29,8 @@ section {
 .navbar-expand-lg .navbar-nav .nav-link,
 .navbar-expand-xl .navbar-nav .nav-link,
 .navbar-expand-xxl .navbar-nav .nav-link {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   line-height: 1.2;
 }
 
