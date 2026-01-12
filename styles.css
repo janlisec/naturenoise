@@ -9,11 +9,29 @@ body {
   padding-top: 60px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 60px;
+}
 
 /* NAVBAR HÖHE */
 .navbar {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+/* Nav-Link-Höhe für ALLE Expand-Breakpoints fixieren */
+.navbar-expand-sm .navbar-nav .nav-link,
+.navbar-expand-md .navbar-nav .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link,
+.navbar-expand-xl .navbar-nav .nav-link,
+.navbar-expand-xxl .navbar-nav .nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.2;
 }
 
 /* NAVBAR LINKS */
@@ -31,25 +49,14 @@ body {
 /* 2) Sicherstellen, dass die Menüelemente in einer Reihe bleiben */
 .navbar .navbar-nav {
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar .container,
 .navbar .container-fluid {
   display: flex;
   justify-content: center;
-}
-
-.navbar .navbar-nav {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-section {
-  scroll-margin-top: 60px;
 }
 
 /* Nutze Garamon Font für Navbar und Header L2 */
@@ -77,7 +84,6 @@ h2.anchored {
   font-weight: 600;
 }
 
-
 /* HERO SECTION */
 /* NAVBAR ÜBER HERO */
 .navbar {
@@ -100,8 +106,14 @@ h2.anchored {
 
   background-image: url("images/20250316_naturenoise_Philharmonie.jpg");
   background-size: cover;
-  background-position: center 15%;
+  background-position: center 20%;
   position: relative;
+}
+
+@media (min-width: 1200px) {
+  .hero-fullbleed {
+    background-position: center top;
+  }
 }
 
 /* define icon row */
