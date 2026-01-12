@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 0px;
+  padding-top:63px;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 }
 
 section {
-  scroll-margin-top: 55px;
+  scroll-margin-top: 63px;
 }
 
 /* NAVBAR HÖHE */
@@ -23,21 +23,21 @@ section {
   padding-bottom: 0.5rem;
 }
 
+/* Padding nur für den Logo-Link auf #start entfernen */
+.navbar a.nav-link[href="#start"] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* Nav-Link-Höhe für ALLE Expand-Breakpoints fixieren */
 .navbar-expand-sm .navbar-nav .nav-link,
 .navbar-expand-md .navbar-nav .nav-link,
 .navbar-expand-lg .navbar-nav .nav-link,
 .navbar-expand-xl .navbar-nav .nav-link,
 .navbar-expand-xxl .navbar-nav .nav-link {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
   line-height: 1.2;
-}
-
-/* Padding nur für den Logo-Link auf #start entfernen */
-.navbar a.nav-link {
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 /* 1) Die zusammenklappbare Navbar (Bootstrap Collapse) mittig ausrichten */
@@ -78,7 +78,7 @@ section {
 
 /* Nach Scroll (opake Navbar): schwächere Kontur */
 .navbar.scrolled .nav-link {
-  -webkit-text-stroke: 0.3px #000;
+  -webkit-text-stroke: 0.2px #000;
   text-shadow:
     0 0 1px rgba(0,0,0,.5);
 }

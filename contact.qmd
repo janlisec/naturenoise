@@ -17,3 +17,5 @@ Deutschland
 E-Mail: [info\@naturenoise.de](mailto:%20info@naturenoise.de)
 
 Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV ist Magnus Hellmann (Anschrift s.o.).
+
+![](images/logo_bw.png){fig-align="center"}

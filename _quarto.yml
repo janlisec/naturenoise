@@ -6,12 +6,10 @@ website:
   title: ""
   navbar:
     collapse: false
-    collapse-below: sm
     search: false
     left:
       - text: "<img src='images/logo_name_bw.png' alt='naturenoise' class='navbar-logo' />"
         href: "#start"
-        aria-label: Startseite
       - text: konzerte
         href: "#konzerte"
       - text: medien
