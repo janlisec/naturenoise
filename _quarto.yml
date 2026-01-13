@@ -23,8 +23,6 @@ website:
 
 format:
   html:
-    theme:
-      light: flatly
     css: styles.css
     toc: false
 
