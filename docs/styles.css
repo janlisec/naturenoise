@@ -19,12 +19,20 @@ section {
   top: 0;
   width: 100%;
   z-index: 1030;  /* Bootstrap-Empfehlung */
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0);
   /* background-color: rgba(191, 137, 103, 0.4); /* hell & transparent */
   padding-top: 0rem;
   padding-bottom: 0rem;
-  backdrop-filter: blur(3px);  /* moderner Glass-Effekt */
+  backdrop-filter: none;  /* moderner Glass-Effekt */
+  transition: background-color 180ms ease, backdrop-filter 180ms ease;
 }
+
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);       /* optional: leichter Blur für Lesbarkeit */
+}
+
 
 /* Nav-Link-Höhe für ALLE Expand-Breakpoints fixieren */
 .navbar-expand-sm .navbar-nav .nav-link,

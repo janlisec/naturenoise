@@ -201,6 +201,37 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 </figure>
 </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const navbar = document.querySelector('.navbar');
+  const hero = document.querySelector('#hero') || document.querySelector('.hero-fullbleed') || document.querySelector('.quarto-title-block');
+
+  if (!navbar || !hero) return;
+
+  // Wir beobachten einen "Wächter" direkt unterhalb des Hero,
+  // damit die Klasse erst gesetzt wird, wenn der Hero wirklich verlassen ist.
+  const sentinel = document.createElement('div');
+  sentinel.style.position = 'relative';
+  sentinel.style.width = '100%';
+  sentinel.style.height = '1px';
+  hero.insertAdjacentElement('afterend', sentinel);
+
+  const observer = new IntersectionObserver((entries) => {
+    const entry = entries[0];
+    // Sobald der Sentinel NICHT mehr im Viewport ist, sind wir "über dem Hero hinaus"
+    const beyondHero = !entry.isIntersecting;
+    navbar.classList.toggle('scrolled', beyondHero);
+  }, {
+    root: null,          // viewport
+    threshold: 0,        // sobald der 1px-Sentinel verschwindet
+    rootMargin: '0px'
+    // Falls die Navbar sticky ist und die Messung etwas zu früh/spät kommt:
+    // rootMargin: '-60px 0px 0px 0px' // Oberkante nach oben korrigieren (Höhe der Navbar)
+  });
+
+  observer.observe(sentinel);
+});
+</script>
 
 
 </section>
