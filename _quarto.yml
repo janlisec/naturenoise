@@ -23,6 +23,9 @@ website:
 
 format:
   html:
+    theme: flatly
+    email-obfuscation: javascript
+    smooth-scroll: true
     css: styles.css
     toc: false
 
