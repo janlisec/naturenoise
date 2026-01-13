@@ -112,17 +112,23 @@ h2.anchored {
   margin-top: -45px;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  /*height: 35vh;*/
   height: 35vh;
-  /*min-height: 160px;*/
   overflow: hidden;
   background-image: url("images/20250316_naturenoise_Philharmonie.jpg");
   background-size: cover;
-  background-position: center top;
+  background-position: center 15%;
 }
 
-/*@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .hero-fullbleed {
-    background-position: center top;
+    height: 50vh;  
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-fullbleed {
+    height: 65vh;  
   }
 }
 
