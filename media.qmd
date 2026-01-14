@@ -4,31 +4,32 @@ title: ""
 
 ## medien
 
-Ihr findet Videos, Aufnahmen und Bilder von uns online (damit ihr die Zeit bis zum nächsten Konzert überbrücken könnt). 
+Ihr findet Videos, Aufnahmen und Bilder von uns online (damit ihr die Zeit bis zum nächsten Konzert überbrücken könnt).
 
-<div class="icon-row">
-  <a href="https://www.youtube.com/@naturenoise7975" target="_blank" aria-label="YouTube">
-    <i class="bi bi-youtube"></i>
-  </a>
+::: icon-row
+<a href="https://www.youtube.com/@naturenoise7975" target="_blank" aria-label="YouTube"> <i class="bi bi-youtube"></i> </a>
 
-  <a href="https://soundcloud.com/naturenoise-berlin" target="_blank" aria-label="SoundCloud">
-    <i class="fab fa-soundcloud"></i>
-  </a>
+<a href="https://soundcloud.com/naturenoise-berlin" target="_blank" aria-label="SoundCloud"> <i class="fab fa-soundcloud"></i> </a>
 
-  <a href="https://www.facebook.com/naturenoise" target="_blank" aria-label="Facebook">
-    <i class="bi bi-facebook"></i>
-  </a>
-</div>
-
+<a href="https://www.facebook.com/naturenoise" target="_blank" aria-label="Facebook"> <i class="bi bi-facebook"></i> </a>
+:::
 
 ![](images/stage_and_trailer_montage.png){fig-align="center"}
 
-<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Q5p6YeGnFec?si=kBjvSeXVkGgmBleA&amp;start=67" title="Sign your name, 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
-</iframe>
+:::{.video-row}
 
-<iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/wRFUbNHxt54?si=kBjvSeXVkGgmBleA&amp;start=0" title="Man in the mirror, 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+:::{.video .video-left}
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Q5p6YeGnFec?si=kBjvSeXVkGgmBleA&amp;start=67" title="Sign your name, 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
 </iframe>
+:::
 
-Und wer sich **naturenoise** gern ins Regal stellen möchte [bestellt](mailto:%20info@naturenoise.de) unsere CD "Einziger Erstling"!
+:::{.video .video-right}
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/wRFUbNHxt54?si=kBjvSeXVkGgmBleA&amp;start=0" title="Man in the mirror, 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="cross-origin-with-strict-origin" allowfullscreen>
+</iframe>
+:::
+
+:::
+
+Und wer sich **naturenoise** gern ins Regal stellen möchte, [bestellt](mailto:%20info@naturenoise.de) unsere CD "Einziger Erstling"!
 
 ![](images/logo_CD_color.png){fig-align="center"}

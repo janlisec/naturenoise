@@ -163,3 +163,29 @@ h2.anchored {
 .icon-row a:hover {
   opacity: 0.8;
 }
+
+
+/* define video row */
+/* Container für die zwei Videos */
+.video-row {
+  display: flex;
+  flex-direction: column;       /* mobil: untereinander */
+  align-items: center;          /* mobil: zentriert */
+  gap: 0.5em;                  /* Abstand zwischen den Videos */
+  margin: 1rem 0;
+}
+.video {
+  width: 320px;
+  height: 180px;
+}
+
+/* Ab "breit": nebeneinander; links-/rechtsbündig */
+@media (min-width: 992px) {     /* lg-Breakpoint, passend zu Bootstrap/Quarto */
+  .video-row {
+    flex-direction: row;        /* nebeneinander */
+    align-items: flex-start;    /* an der Oberkante ausrichten */
+    justify-content: space-between; /* eines ganz links, eines ganz rechts */
+  }
+  .video-left  { margin-left: 0.5em;  margin-right: auto; }
+  .video-right { margin-right: 0.5em; margin-left:  auto; }
+}

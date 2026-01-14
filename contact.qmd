@@ -6,7 +6,7 @@ title: ""
 
 #### Impressum
 
-Angaben gemäß § 5 TMG und § 18 MStV
+Angaben gemäß § 5 TMG und § 18 MStV. Verantwortlich für den Inhalt:
 
 **naturenoise**\
 c/o Magnus Hellmann\
@@ -15,8 +15,6 @@ Dolomitenstrasse 44\
 Deutschland
 
 E-Mail: [info\@naturenoise.de](mailto:%20info@naturenoise.de)
-
-Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV ist Magnus Hellmann (Anschrift s.o.).
 
 Bildnachweis: Stephan Röhl, naturenoise, privat
 
