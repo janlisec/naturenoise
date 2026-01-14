@@ -6,11 +6,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 45px;
+  padding-top: 50px;
 }
 
 section {
-  scroll-margin-top: 45px;
+  scroll-margin-top: 50px;
 }
 
 /* NAVBAR ÜBER HERO */
@@ -19,14 +19,21 @@ section {
   top: 0;
   width: 100%;
   z-index: 1030;  /* Bootstrap-Empfehlung */
+  font-size: 1.25rem;
   background-color: rgba(255, 255, 255, 0);
   /* background-color: rgba(191, 137, 103, 0.4); /* hell & transparent */
   padding-top: 0rem;
   padding-bottom: 0rem;
-  backdrop-filter: none;  /* moderner Glass-Effekt */
+  backdrop-filter: none;  /* reset blur */
   transition: background-color 180ms ease, backdrop-filter 180ms ease;
 }
 
+.navbar li.nav-item a.nav-link span {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.navbar.scrolled li.nav-item a.nav-link span {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
 
 .navbar.scrolled {
   background-color: rgba(255, 255, 255, 0.4);
@@ -70,22 +77,6 @@ section {
   font-family: 'EB Garamond', serif;
   font-style: italic;
   font-weight: 600; /* passe nach Geschmack an: 400–600 */
-}
-
-/* Über dem Hero: stärkere Kontur für Lesbarkeit */
-.navbar:not(.scrolled) .nav-link {
-  color: #fff;
-  -webkit-text-stroke: 0.2px #000;
-  text-shadow:
-    0.5px 0 0 #000, -0.5px 0 0 #000,
-    0 0.5px 0 #000,  0 -0.5px 0 #000;
-}
-
-/* Nach Scroll (opake Navbar): schwächere Kontur */
-.navbar.scrolled .nav-link {
-  -webkit-text-stroke: 0.2px #000;
-  text-shadow:
-    0 0 1px rgba(0,0,0,.5);
 }
 
 /* Level-2 Überschriften */

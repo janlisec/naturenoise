@@ -8,7 +8,7 @@ website:
     collapse: false
     search: false
     left:
-      - text: "<img src='images/logo_name_bw.png' alt='naturenoise' class='navbar-logo' />"
+      - text: "<img src='images/nn_logo-kurz_SCHWARZ.png' alt='naturenoise' class='navbar-logo' />"
         href: "#start"
       - text: konzerte
         href: "#konzerte"
