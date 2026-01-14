@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - images/nn_logo-kurz_SCHWARZ.png
+    - images/nn_logo-kurz_WEISS.png
 
 website:
   title: ""
