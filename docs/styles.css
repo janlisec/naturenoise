@@ -29,10 +29,20 @@ section {
 }
 
 .navbar li.nav-item a.nav-link span {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.2s ease, font-weight 0.2s ease, text-decoration 0.2s ease;
 }
-.navbar.scrolled li.nav-item a.nav-link span {
-  color: rgba(0, 0, 0, 0.8) !important;
+
+/* Hover-Effekt: Text hebt sich ab */
+.navbar li.nav-item a.nav-link:hover span {
+  font-weight: 600; /* oder bold */
+  text-decoration: underline; /* oder 'overline' für subtilen Effekt */
+}
+
+/* Aktiver Link (Bootstrap setzt .active auf den <a>-Tag) */
+.navbar li.nav-item a.nav-link.active span {
+  font-weight: 700; /* noch stärker */
+  text-decoration: underline;
 }
 
 .navbar.scrolled {
@@ -40,6 +50,15 @@ section {
   backdrop-filter: blur(6px);       /* optional: leichter Blur für Lesbarkeit */
 }
 
+.navbar.scrolled li.nav-item a.nav-link span {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar.scrolled .nav-link:hover span,
+.navbar.scrolled .nav-link:focus-visible span,
+.navbar.scrolled .nav-link.active span {
+  color: rgba(0, 0, 0, 1);
+}
 
 /* Nav-Link-Höhe für ALLE Expand-Breakpoints fixieren */
 .navbar-expand-sm .navbar-nav .nav-link,

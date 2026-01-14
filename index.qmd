@@ -52,4 +52,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
   observer.observe(sentinel);
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const navbar = document.querySelector('nav.navbar');
+  const logo = document.querySelector('.navbar-logo');
+  if (!navbar || !logo) return;
+
+  const SRC_LIGHT = 'images/nn_logo-kurz_SCHWARZ.png';   // für .scrolled (helle Navbar)
+  const SRC_DARK  = 'images/nn_logo-kurz_WEISS.png'; // Standard
+
+  const swapLogo = () => {
+    const isScrolled = navbar.classList.contains('scrolled');
+    const target = isScrolled ? SRC_LIGHT : SRC_DARK;
+    if (logo.getAttribute('src') !== target) {
+      logo.setAttribute('src', target);
+    }
+  };
+
+  // gleich beim Laden korrekt setzen
+  swapLogo();
+
+  // wenn du schon einen Observer hast, ruf swapLogo in dessen Callback auf.
+  // Falls nicht, hier eine Fallback-Scroll-Logik:
+  window.addEventListener('scroll', swapLogo, { passive: true });
+  window.addEventListener('resize', swapLogo);
+});
+
 </script>
