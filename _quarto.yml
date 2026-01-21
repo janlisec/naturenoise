@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
+    - CNAME
     - images/nn_logo-kurz_SCHWARZ.png
     - images/nn_logo-kurz_WEISS.png
 
