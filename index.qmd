@@ -1,5 +1,7 @@
 ---
-title: "naturenoise - a capella"
+title: "naturenoise"
+title-meta: "naturenoise"
+title-block-style: none
 ---
 
 ::: hero-fullbleed

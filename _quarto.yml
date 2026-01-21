@@ -29,12 +29,14 @@ website:
 
 format:
   html:
+    title-format: "{title}"
     theme: flatly
     email-obfuscation: javascript
     smooth-scroll: true
     css: styles.css
     toc: false
     metadata:
+      pagetitle: "naturenoise"
       og:title: "naturenoise"
       og:description: "Feinste A Capella Musik seit 2009"
       og:image: "https://www.naturenoise.de/images/og-image.jpg"
