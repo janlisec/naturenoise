@@ -2,26 +2,34 @@
 title: ""
 ---
 
-<div class="hero-fullbleed">
-</div>
+::: hero-fullbleed
+:::
 
 <section id="start">
+
 {{< include start.qmd >}}
+
 </section>
 
 <section id="konzerte">
+
 {{< include concerts.qmd >}}
+
 </section>
 
 <section id="medien">
+
 {{< include media.qmd >}}
+
 </section>
 
 <section id="kontakt">
+
 {{< include contact.qmd >}}
+
 </section>
 
-
+```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.querySelector('.navbar');
@@ -80,3 +88,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 </script>
+```
