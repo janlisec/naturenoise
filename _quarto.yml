@@ -7,6 +7,8 @@ project:
 
 website:
   title: ""
+  favicon: images/favicon.png
+  site-url: https://www.naturenoise.de
   navbar:
     collapse: false
     search: false
@@ -31,5 +33,11 @@ format:
     smooth-scroll: true
     css: styles.css
     toc: false
+    metadata:
+      og:title: "naturenoise"
+      og:description: "Feinste A Capella Musik seit 2009"
+      og:image: "https://www.naturenoise.de/images/og-image.jpg"
+      og:type: website
+      twitter:card: summary_large_image
 
 editor: visual
