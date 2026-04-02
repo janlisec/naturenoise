@@ -6,19 +6,33 @@ title: "Konzerte"
 
 #### 🥳 Seid dabei
 
--   27.06.2026 Altkünkendorf bei Angermünde (Weltnaturerbe Buchenwälder, geplant)
--   21.06.2026 Museumsinsel Berlin (Fête de la musique, geplant)
+-   05.07.2026 Freilichtbühne Weissensee (unser Sommerkonzert -- hinter der großen Bühne ;), geplant)
+-   28.06.2026 Rosengarten im Bürgerpark Pankow (12 Bezirke - 12 Konzerte, 18:40-19:00)
+-   27.06.2026 Altkünkendorf bei Angermünde (Weltnaturerbe Buchenwälder, ab 18:00)
+-   21.06.2026 Museumsinsel Berlin, Kolonnadenhof (Fête de la musique, 18:00 Uhr)
+-   06.06.2026 Museumsinsel Berlin, Kolonnadenhof (#dabei open air, geplant)
+-   18.04.2026 <private Veranstaltung>
 
 #### 😭 Leider vorbei
 
 -   27.02.2026 – Berlin, ***rk*** - Galerie für zeitgenössische Kunst (Klimasalon)
+
+::: {.callout-note collapse="true"}
+### 2025
 -   06.12.2025 – Berlin, Jugendfunkhaus Lichtenberg
 -   19.09.2025 – Berlin, Wagendorf Karow (Sommerfest)
 -   25.06.2025 – Berlin, Potsdamer Platz (after work concert)
 -   16.03.2025 – Berlin, [Philharmonie](https://www.chorverband-berlin.de/veranstaltungen/konzerte-veranstaltungen/sonntagskonzertreihe/){target="_blank" rel="noopener noreferrer"}
+:::
+
+::: {.callout-note collapse="true"}
+### 2024 (und älter...)
 -   14.09.2024 – Berlin, [Unpluggedival](https://www.unpluggedival.de/veranstaltungen/2024-06-26/naturenoise/){target="_blank" rel="noopener noreferrer"}
 -   20.04.2024 – Berlin, Wabe (15 Jahre naturenoise)
 -   ...
 -   11.07.2015 – Berlin, [Pfefferwerk](https://haus13.pfefferwerk.de/event/a-capella-sommerkonzert-naturenoise/){target="_blank" rel="noopener noreferrer"}
+-   ??.??.2009 - Cafe Übereck, Berlin (first concert ever)
+:::
+
 
 Wir singen selten, aber gerne. Wer findet, wir sollten öfter auftreten, schickt uns eine Buchungsanfrage.
