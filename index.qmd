@@ -84,5 +84,40 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('resize', swapLogo);
 });
 
+
+// show custom modal before cutoff date
+(function() {
+  var cutoff = new Date("2026-06-28T23:59:59");
+  var today = new Date();
+
+  if (today <= cutoff) {
+    window.addEventListener("DOMContentLoaded", function() {
+
+      var box = document.createElement("div");
+      box.style.position = "fixed";
+      box.style.top = "20px";
+      box.style.left = "50%";
+      box.style.transform = "translateX(-50%)";
+      box.style.background = "#f8d7da";
+      box.style.color = "#721c24";
+      box.style.padding = "15px";
+      box.style.borderRadius = "5px";
+      box.style.boxShadow = "0 2px 10px rgba(0,0,0,0.2)";
+      box.style.zIndex = "1000";
+
+      box.innerHTML = `
+        <strong>Achtung:</strong> Das Konzert am 28.06.2026 (Rosengarten Pankow) wurde vom Veranstalter wegen erwarteter Temperaturen von >40°C abgesagt!!!.
+        <button style="margin-left:15px;">OK</button>
+      `;
+
+      box.querySelector("button").onclick = function() {
+        box.remove();
+      };
+
+      document.body.appendChild(box);
+    });
+  }
+})();
+
 </script>
 ```
