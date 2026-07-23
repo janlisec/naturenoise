@@ -6,10 +6,12 @@ title: "Konzerte"
 
 #### 🥳 Seid dabei
 
-- 05.07.2026 [Freilichtbühne Weissensee](https://freilichtbuehne-weissensee.de/events/sommerkonzert-naturenoise/){target="_blank" rel="noopener noreferrer"} (unser Sommerkonzert, 17:00-19:00)
+Nach einem Konzertreichen Frühjahr sind wir in der Sommerpause und schauen mal,
+was sich für den Herbst so an Auftritts-Gelegenheiten ergibt.
 
 #### 😭 Leider vorbei
 
+- 05.07.2026 [Freilichtbühne Weissensee](https://freilichtbuehne-weissensee.de/events/sommerkonzert-naturenoise/){target="_blank" rel="noopener noreferrer"} (unser Sommerkonzert, 17:00-19:00)
 - 28.06.2026 Rosengarten im Bürgerpark Pankow ([12 Bezirke - 12 Konzerte](https://www.chorverband-berlin.de/veranstaltungen/jubilaeum/12-bezirke-12-konzerte/){target="_blank" rel="noopener noreferrer"}, 18:40-19:00) !!!ACHTUNG - Event wurde durch Veranstalter wegen erwarteter Temperaturen \>40°C abgesagt!!!
 - 27.06.2026 Altkünkendorf bei Angermünde ([Weltnaturerbe Buchenwälder](https://welterbe-grumsin.de/2026/04/13/15-jaehriges-jubilaeum-buchenwald-grumsin-in-altkuenkendorf/){target="_blank" rel="noopener noreferrer"}, ab 17:30)
 - 21.06.2026 Museumsinsel Berlin, Treppe James Simon Galerie (Fête de la musique, ca. 18:00 Uhr)
@@ -22,7 +24,7 @@ title: "Konzerte"
 - 06.12.2025 – Berlin, Jugendfunkhaus Lichtenberg
 - 19.09.2025 – Berlin, Wagendorf Karow (Sommerfest)
 - 25.06.2025 – Berlin, Potsdamer Platz (after work concert)
-- 16.03.2025 – Berlin, [Philharmonie](https://www.chorverband-berlin.de/veranstaltungen/konzerte-veranstaltungen/sonntagskonzertreihe/){target="_blank" rel="noopener noreferrer"}
+- 16.03.2025 – Berlin, [Philharmonie](https://www.chorverband-berlin.de/veranstaltungen/konzerte-veranstaltungen/sonntagskonzertreihe/){target="_blank" rel="noopener noreferrer"} (Kammermusiksaal)
 :::
 
 ::: {.callout-note collapse="true"}
