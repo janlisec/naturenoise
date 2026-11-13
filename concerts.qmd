@@ -6,8 +6,10 @@ title: "Konzerte"
 
 #### 🥳 Seid dabei
 
-Nach einem Konzertreichen Frühjahr sind wir in der Sommerpause und schauen mal,
-was sich für den Herbst so an Auftritts-Gelegenheiten ergibt.
+[//]: # (Nach einem Konzertreichen Frühjahr sind wir in der Sommerpause und schauen mal, was sich für den Herbst so an Auftritts-Gelegenheiten ergibt.)
+
+- 09.12.2026 IKEA Tempelhof {Julbord, geschlossene Veranstaltung}
+- 13.12.2026 [Weihnachstmarkt Buch](https://www.alle-weihnachtsmaerkte.de/weihnachtsmaerkte/berlin/bucher-weihnachtszauber-561429.html){target="_blank" rel="noopener noreferrer"} (Zeitpunkt noch unklar)
 
 #### 😭 Leider vorbei
 
